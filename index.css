@@ -1,0 +1,1311 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    /* border: 1px solid red; */
+}
+
+html
+{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
+/* scrolltop */
+
+#scrolltop
+{
+    height: 8vh;
+    width: 4%;
+    background-color: red;
+    position: absolute;
+    left: 95%;
+    z-index: 30;
+    top: 520%;
+    visibility: hidden;
+}
+
+
+
+/* main1 */
+
+#main1
+{
+    /* position: sticky; */
+    height: 15vh;
+    width: 100%;
+    /*  */
+    display: flex;
+    z-index: 21;
+    background-color: white;
+}
+
+.logo
+{
+    /* border: 1px solid red; */
+    height: 15vh;
+    width: 18vw;
+}
+
+/* .nav1
+{
+    
+} */
+
+.ul
+{
+    position: relative;
+    top: 40%;
+    left: 12%;
+    height: 8vh;
+    width: 75%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 2rem;
+    
+}
+.li
+{
+    height: 10vh;
+    width: 20%;
+    text-align: center;
+}
+
+.li a:hover
+{
+    color: red;
+}
+
+.li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.ul1
+{
+     /* border: 1px solid red; */
+    height: 8vh;
+    width: 70%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    position: relative;
+    left:30%;
+    top: 20%;
+}
+
+.li1
+{
+    margin: 0 1.5rem;
+}
+
+.li1 a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.li1 a:hover
+{
+    color: red;
+}
+
+/* main2 */
+
+#main2
+{
+    /* border: 1px solid red; */
+    height: 110vh;
+    width: 100%;
+    background-color: #d4d9dd;
+    position: absolute;
+    top: 15%;
+}
+
+.head1
+{
+    height: 22vh;
+    width: 70%;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    font-weight: 600;
+    color: #0B1C39;
+    font-size: 10rem;
+}
+
+.p1
+{
+    position: absolute;
+    top: 60%;
+    left: 7%;
+    color: black;
+    font-size: 2.2rem;
+}
+
+span a
+{
+    color: red;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+span a:hover
+{
+    text-decoration: none;
+    color: red;
+}
+.btn3
+{
+    position: absolute;
+    top: 70%;
+    left: 7%;
+    height: 7vh;
+    width: 12%;
+    background-color: #4f4c4c;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.color
+{
+    background-color: red;
+    height: 100%;
+    width: 8%;
+    position: absolute;
+    left: 75%;
+
+}
+
+.watch
+{
+    height: 50vh;
+    width: 24%;
+    position: absolute;
+    top: 25%;
+    left: 66%;
+    transform: scale(1);
+    animation: scale 2s infinite linear;
+}
+
+@keyframes scale
+{
+    0%
+    {
+        transform: scale(1);
+    }
+    50%
+    {
+        transform: scale(1.1);
+    }
+    
+}
+
+/* main3 */
+
+#main3
+{
+    height: 140vh;
+    width: 100%;
+    position: absolute;
+    top: 125%;
+    /* border: 1px solid red; */
+
+}
+
+.arrival
+{
+    height: 9vh;
+    width: 19%;
+    position: absolute;
+    left: 7%;
+    top: 12%;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.product1
+{
+    height: 85vh;
+    width: 86%;
+    
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prd
+{
+    height: 80vh;
+    width: 31%;
+    /* border: 1px solid black; */
+
+}
+
+.img33
+{
+    height: 63vh;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.shop
+{
+    height: 100%;
+    width: 100%;
+    transform: scale(1);
+}
+
+.shop:hover
+{
+    height: 101%;
+    width: 100%;
+    transform:scale(1.05);
+    transition-duration: 0.5s;
+}
+
+.data
+{
+    height: 10vh;
+    width: 90%;
+    margin-left: 2.5rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* main4 */
+
+#main4
+{
+    height: 85vh;
+    width: 100%;
+    position: absolute;
+    top: 265%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.one
+{
+    height: 100%;
+    width: 48%;
+    overflow: hidden;
+    /* border: 1px solid black; */
+}
+
+.hang
+{
+    overflow: hidden;
+}
+
+.hang1
+{
+    height: 114%;
+    width: 115%;
+    margin-left: -7%;
+    margin-top: -5%;
+    transform: scale(1);
+    z-index: 10;
+    /* position: relative; */
+}
+
+
+.black
+{
+    height: 100%;
+    width: 48%;
+    z-index: 20;
+    position: absolute;
+    top: 0%;
+    background-color: black;
+    opacity:.8;
+    visibility: hidden;
+
+}
+
+.one:hover .hang1 
+{
+    transform: scale(.9);
+    transition-duration: 0.5s;
+}
+
+.one:hover .black
+{
+    visibility: visible;
+    transition-duration: 1s;
+    transition-delay: 0.1s;
+}
+
+
+
+.shoe
+{
+    height: 114%;
+    width: 115%;
+    margin-left: -7%;
+    margin-top: -10%;
+    transform: scale(1);
+}
+
+.one:hover .shoe
+{
+    transform: scale(.9);
+    transition-duration: 0.5s;
+}
+
+.black1
+{
+    height: 100%;
+    width: 24%;
+    z-index: 20;
+    position: absolute;
+    top: 0%;
+    background-color: black;
+    opacity:.6;
+    visibility: hidden;
+}
+
+.one:hover .black1
+{
+    visibility: visible;
+    transition-duration: 1s;
+    transition-delay: 0.1s;
+}
+
+.one1
+{
+    height: 48%;
+    width: 100%;
+    overflow: hidden;
+    /* border: 1px solid black;  */
+}
+
+.wtch
+{
+    height: 114%;
+    width: 115%;
+    margin-left: -7%;
+    margin-top: -5%;
+    transform: scale(1);
+}
+
+.black2
+{
+    height: 48%;
+    width: 24%;
+    z-index: 20;
+    position: absolute;
+    top: 0%;
+    background-color: black;
+    opacity:.6;
+    visibility: hidden;
+}
+
+.one1:hover .wtch
+{
+    transform: scale(.9);
+    transition-duration: 0.5s;
+}
+
+.one1:hover .black2
+{
+    visibility: visible;
+    transition-duration: 1s;
+    transition-delay: 0.1s;
+}
+
+
+/* main5 */
+
+#main5
+{
+    height: 85vh;
+    width: 100%;
+    position: absolute;
+    top: 365%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.ifra
+{
+    height: 100%;
+    width: 100%;
+}
+
+.iframe
+{
+    height: 20vh;
+    width: 30%;
+    background-color: #F41E1E;
+    position: absolute;
+    top: 76.3%;
+}
+
+.nxt
+{
+    height: 6vh;
+    width: 40%;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    color: white;
+    font-size: 2rem;
+}
+
+#main6
+{
+    height: 40vh;
+    width: 80%;
+    position: absolute;
+    top: 480%;
+    left: 10%;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.method
+{
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid black; */
+}
+
+.ship
+{
+    height: 8vh;
+    width: 80%;
+    font-size: 2.3rem;
+    color: white;
+    left: 5%;
+    top: 50%;
+}
+
+.ar
+{
+    height: 10vh;
+    width: 80%;
+    font-size: 2rem;
+    color: #D5BFBF;
+    position: absolute;
+    left: 5%;
+    top: 65%;
+}
+
+/* main7 */
+
+#main7
+{
+    height: 75vh;
+    width: 100%;
+    position: absolute;
+    top: 521%;
+    /* border: 1px solid red; */
+    background-color: #fafafa;
+    
+}
+
+.liii:hover
+{
+    color: red;
+    transform: translateX(2%);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.iconss
+{
+    width: 20%;
+    position: relative;
+    left: 80%;
+    top: 80%;
+    display: flex;
+    /* background-color: #222; */
+}
+
+.iconss li
+{
+    position: relative;
+    list-style: none;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.iconss li a
+{
+    text-decoration: none;
+}
+
+.iconss li a .fa
+{
+    font-size: 2rem;
+    color: #222;
+}
+
+.iconss li a .fa:hover
+{
+    /* font-size: 2rem; */
+    color: red;
+}
+
+
+/* shop.html */
+
+/* slider */
+
+.slider
+{
+    height: 80vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+figure
+{
+    height: 100%;
+    position: relative;
+    width: 500%;
+    left: 0;
+    margin: 0;
+    animation: slider 20s infinite;
+}
+
+.one
+{
+    height: 100%;
+    width: 20%;
+}
+
+@keyframes slider
+{
+    0%
+    {
+        left: 0%;
+    }
+    20%
+    {
+        left: 0%;
+    }
+    25%
+    {
+        left: -100%;
+    }    
+    45%
+    {
+        left: -100%;
+    }
+    50%
+    {
+        left: -200%;
+    }
+    70%
+    {
+        left: -200%;
+    }
+    75%
+    {
+        left: -300%;
+    }
+    95%
+    {
+        left: -300%;
+    }
+    100%
+    {
+        left: -400%;
+    }
+
+}
+
+/* main3 */
+
+.shopthing
+{
+    height: 150vh;
+    width: 100%;
+    position: absolute;
+    top: 120%;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 50% 50%;
+    justify-content: space-around;
+}
+
+.shop1
+{
+    height: 70vh;
+    width: 90%;
+    /* border: 1px solid red; */
+}
+.shopimg
+{
+    height: 50vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+.h41
+{
+    height: 7vh;
+    width: 30%;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-left: 40%;
+    margin-top: 4%;
+}
+
+.imgggg
+{
+    height: 100%;
+    width: 100%;
+    border-bottom: 2px solid red;    
+}
+
+.div_red
+{
+    position: absolute;
+    background-color: red;
+    transition: all .3s ease;   
+}
+
+.cart
+{
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 35%;
+    font-size: 2rem;
+
+}
+.shopimg:hover .div_red, .shopimg:hover .overlaybottom
+{
+    height: 12vh;
+    opacity: 1;
+    top: 32%;
+
+}
+
+.overlaybottom
+{
+    width: 27%;
+    height: 0;
+    top: 40%;
+    left: 1.65%;
+    
+}
+
+.overlaybottom1 
+{
+    width: 27%;
+    height: 0;
+    top: 40%;
+    left: 35%;
+    
+}
+
+.over2
+{
+    width: 27%;
+    height: 0;
+    top: 40%;
+    left: 68.4%;
+}
+
+.over3
+{
+    top: 88.3%;
+}
+
+.div_red1
+{
+    position: absolute;
+    background-color: red;
+    transition: all .3s ease; 
+    opacity: 1;
+}
+
+.shopimg:hover .div_red1, .shopimg:hover .overlaybot
+{
+    height: 12vh;
+    opacity: 1;
+    top: 82%;
+
+}
+
+.cart1
+{ 
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 35%;
+    font-size: 2rem;
+
+}
+
+.overlaybot
+{
+    width: 27%;
+    height: 0;
+    top: 90%;
+    left: 1.65%;
+}
+
+.over4
+{
+    left: 35%;
+}
+
+.over5
+{
+    left: 68.4%;
+}
+
+.prc
+{
+    height: 6vh;
+    width: 10%;
+    font-size: 1.8rem;
+    font-weight: 600;
+    position: absolute;
+    left: 13%;
+    top: 38%;
+}
+/* min 77 */
+
+
+#min77
+{
+    height: 40vh;
+    width: 80%;
+    position: absolute;
+    top: 280%;
+    left: 10%;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* main77 */
+
+#main77
+{
+    height: 75vh;
+    width: 100%;
+    position: absolute;
+    top: 321%;
+    /* border: 1px solid red; */
+    background-color: #fafafa;
+}
+
+
+/* About.html */
+/* main2 */
+.about22
+{
+    height: 80vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    position: absolute;
+}
+
+.about_img
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.about_head
+{
+    height: 9vh;
+    width: 40%;
+    font-weight: 900;
+    font-size: 8rem;
+    position: absolute;
+    left: 37%;
+    top: 38%;
+}
+
+.about_des
+{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 120%;
+}
+
+.about_desc
+{
+    height: 8vh;
+    width: 20%;
+    /* border: 1px solid red; */
+    font-size: 3rem;
+    position: absolute;
+    left: 22%;
+    font-weight: 900;
+    top: 8.5%;
+}
+
+.hr1
+{
+    position: absolute;
+    top: 10%;
+    left: 16%;
+}
+
+.about_data
+{
+    height: 25vh;
+    width: 60%;
+    /* border: 1px solid red; */
+    position: absolute;
+    left: 16%;
+    top: 20%;
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.descc
+{
+    top: 50%;
+}
+
+.hr2
+{
+    top: 51.9%;
+}
+
+.video_main
+{
+    
+    height: 85vh;
+    width: 100%;
+    position: absolute;
+    top: 234%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#main7716
+{
+    height: 75vh;
+    width: 100%;
+    position: absolute;
+    top: 325%;
+    /* border: 1px solid red; */
+    background-color: #fafafa;
+}
+
+/* map  */
+
+.map
+{
+    height: 80vh;
+    width: 80%;
+    position: absolute;
+    /* border: 1px solid red; */
+    top: 105%;
+    left: 10%;
+}
+
+.contact_info
+{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 200%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.touch
+{
+    height: 8vh;
+    width: 20%;
+    font-size: 2.8rem;
+    font-weight: 900;
+    margin-top: 1%;
+    margin-left: 14%;
+}
+
+form
+{
+    height: 80%;
+    width: 80%;
+    margin-left:14% ;
+    /* border: 1px solid red; */
+    /* border-color: gray; */
+}
+
+input 
+{
+    width: 48.76%;
+    height: 8vh;
+    font-size: 1.7rem;
+    opacity: .5;
+}
+
+input :active
+{
+    border: lightgray;
+    opacity: .3;
+}
+
+.btn
+{
+    height: 8vh;
+    width: 10%;
+    color: white;
+    background-color: red;
+    font-size: 2rem;
+    /* margin-left: %; */
+    margin-top: 8%;
+}
+
+.btn:hover
+{
+    color: black;
+}
+
+/* main8 */
+.main888
+{
+    
+    height: 75vh;
+    width: 100%;
+    position: absolute;
+    top: 318%;
+    /* border: 1px solid red; */
+    background-color: #fafafa;
+}
+
+/* login form */
+
+.create
+{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 125%;
+}
+
+.acount_cr
+{
+    height: 90vh;
+    width: 42%;
+    background: linear-gradient(45deg, #AD8BAA , #634661);
+    position: absolute;
+    left: 8%;
+    
+}
+
+
+
+.btn_crt
+{
+    transition-duration: .5s;
+    background-color: transparent;
+    width: 40%;
+    height: 9vh;
+    font-size: 1.4rem;
+    color: white;
+}
+
+
+.btn_crt:hover
+{
+    background-color: white;
+    color: red;
+}
+
+.log_form
+{
+    height: 90vh;
+    width: 42%;
+    position: absolute;
+    left: 58%;
+}
+
+.btn_sbm
+{
+    transition-duration: .5s;
+    color: #007BFF;
+    background-color: transparent;
+}
+
+.forget
+{
+    text-decoration: none;
+    color: gray;
+    font-size: 1.8rem;
+    margin-left: 70%;    
+}
+
+.forget:hover
+{
+    text-decoration: none;
+    color: gray;
+    
+}
+
+.btn_sbm:hover
+{
+    color: white;
+    background-color: #007BFF;
+}
+
+.main212
+{
+    height: 75vh;
+    width: 100%;
+    position: absolute;
+    top: 255%;
+    /* border: 1px solid red; */
+    background-color: #fafafa;
+}
+
+/* add_cart.html */
+
+.list_cart
+{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 120%;
+    /* border: 1px solid red; */
+}
+
+.list_cart1
+{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    /* border: 1px solid red; */
+}
+
+.list1
+{
+    height: 8vh;
+    width: 80%;
+    border-bottom: 1px solid gray;
+    position: absolute;
+    left: 10%;
+    list-style-type: NONE;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.data_list
+{
+    height: 34vh;
+    width: 80%;
+    border-bottom: 1px solid lightgray;
+    position: absolute;
+    top: 12%;
+    left: 10%;
+}
+
+.list11
+{
+    top: 51%;
+}
+
+.img_data
+{
+    height: 90%;
+    width: 15%;
+    border: 1px solid lightgray;
+}
+
+.size_pic
+{
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.mini
+{
+    height: 7vh;
+    width: 30%;
+    color: gray;
+    position: absolute;
+    left: 18%;
+    top: 45%;
+    font-size: 1.9rem;
+}
+
+.prc1
+{
+    left: 63%;
+}
+
+.add_value
+{
+    height: 8vh;
+    width: 5%;
+    border: 1px solid lightgray;
+    position: absolute;
+    left: 76%;
+    top: 38%;
+    font-size: 2.4rem;
+}
+
+.btn_add
+{
+    height: 4vh;
+    width: 3%;
+    border: 1px solid lightgray;
+    position: absolute;
+    left: 81%;
+    top: 38%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+
+.btn_sub
+{
+    height: 4vh;
+    width: 3%;
+    border: 1px solid lightgray;
+    position: absolute;
+    left: 81%;
+    top: 50%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+
+.btn_updt
+{
+    height: 8vh;
+    width: 15%;
+    color: white;
+    background-color: #2577FD;
+    position: absolute;
+    top: 86%;
+    left: 10%;
+    font-size: 1.8rem;
+    border: 1px solid #2577FD;
+    border-radius: .8rem;
+}
+
+.btn_updt:hover
+{
+    transition-duration:.5s;
+    background-color: white;
+    color: red;
+    border:1px solid #2577FD;
+}
+
+.footer
+{
+    height: 75vh;
+    width: 100%;
+    position: absolute;
+    top: 230%;
+    /* border: 1px solid red; */
+    background-color: #fafafa;
+}
+
+/* Add values in cart */
+
+.cart13
+{
+    height: 58vh;
+    width:185% ;
+    background-color: white;
+    /* border: 1px solid red; */
+    position: absolute;
+    left: -95%;
+    z-index: 35;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+
+
+.lii11:hover .cart13
+{
+    visibility: visible;
+}
+
+.cart111
+{
+    font-size: 1.5rem;
+}
+
+.ulcart
+{
+    /* border: 1px solid red; */
+    height: 70%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    list-style-type: none;
+}
+
+.listcart1
+{
+    position: relative;
+    margin-top: 2%;
+    list-style: none;
+    width: 27%;
+    height: 10rem;
+    font-size: 1.8rem;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+
+
+
+.cart_img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.btnn22
+{
+height: 7vh;
+width: 45%;
+font-size: 1.7rem;
+background-color: red;
+border: 1px solid red;
+font-weight: 600;
+color: white;
+position: absolute;
+left: 28%;
+top: 86%;
+}
